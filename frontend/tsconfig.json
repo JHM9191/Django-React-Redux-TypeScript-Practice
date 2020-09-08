@@ -12,7 +12,8 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "module": "esnext",
-    "lib": ["es6", "dom", "dom.iterable"]
+    "lib": ["es6", "dom", "dom.iterable",
+      "esnext"]
   },
   "include": ["./**/*"],
   "exclude": ["node_modules", "static/frontend", "**/__tests__/**/*"]
